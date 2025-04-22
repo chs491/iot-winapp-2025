@@ -1,4 +1,4 @@
-namespace SyntaxWinApp2
+ï»¿namespace SyntaxWinApp2
 {
     public partial class FrmMain : Form
     {
@@ -9,12 +9,12 @@ namespace SyntaxWinApp2
 
         private void BtnMsg_Click(object sender, EventArgs e)
         {
-            // ¿¬»êÀÚ : =, +, -, *, /, %, +=, -=, *=
+            // ì—°ì‚°ìž : =, +, -, *, /, %, +=, -=, *=
             // &&, ||, &, |, ^, !
-            // C, C++ ¿Í µ¿ÀÏ
+            // C, C++ ì™€ ë™ì¼
             int val = 2 ^ 10;
 
-            MessageBox.Show(((3>2) && (10<9)).ToString(), "¾Ë¸²!", MessageBoxButtons.OK);
+            MessageBox.Show(((3>2) && (10<9)).ToString(), "ì•Œë¦¼!", MessageBoxButtons.OK);
         }
     }
 }
