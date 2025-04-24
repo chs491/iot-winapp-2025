@@ -651,8 +651,6 @@ IoT 개발자 C#/WinApp 리포지토리 2025
 - 추가 내용
     - Form_Load 이벤트    
 
-
-
 ### C# 응용 - WPF
 - WPF 기본
 
