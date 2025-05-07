@@ -282,7 +282,7 @@
             TxtPosition1.Location = new Point(81, 49);
             TxtPosition1.Name = "TxtPosition1";
             TxtPosition1.Size = new Size(118, 23);
-            TxtPosition1.TabIndex = 1;
+            TxtPosition1.TabIndex = 2;
             // 
             // label12
             // 
@@ -298,7 +298,7 @@
             TxtAge1.Location = new Point(81, 78);
             TxtAge1.Name = "TxtAge1";
             TxtAge1.Size = new Size(118, 23);
-            TxtAge1.TabIndex = 1;
+            TxtAge1.TabIndex = 3;
             // 
             // label13
             // 
@@ -314,7 +314,7 @@
             TxtBats1.Location = new Point(81, 107);
             TxtBats1.Name = "TxtBats1";
             TxtBats1.Size = new Size(118, 23);
-            TxtBats1.TabIndex = 1;
+            TxtBats1.TabIndex = 4;
             // 
             // label14
             // 
@@ -330,7 +330,7 @@
             TxtHits1.Location = new Point(81, 136);
             TxtHits1.Name = "TxtHits1";
             TxtHits1.Size = new Size(118, 23);
-            TxtHits1.TabIndex = 1;
+            TxtHits1.TabIndex = 5;
             // 
             // label15
             // 
@@ -346,7 +346,7 @@
             TxtWalks1.Location = new Point(81, 165);
             TxtWalks1.Name = "TxtWalks1";
             TxtWalks1.Size = new Size(118, 23);
-            TxtWalks1.TabIndex = 1;
+            TxtWalks1.TabIndex = 6;
             // 
             // label16
             // 
@@ -362,7 +362,7 @@
             TxtDoubles1.Location = new Point(81, 194);
             TxtDoubles1.Name = "TxtDoubles1";
             TxtDoubles1.Size = new Size(118, 23);
-            TxtDoubles1.TabIndex = 1;
+            TxtDoubles1.TabIndex = 7;
             // 
             // label17
             // 
@@ -378,7 +378,7 @@
             TxtTriples1.Location = new Point(81, 223);
             TxtTriples1.Name = "TxtTriples1";
             TxtTriples1.Size = new Size(118, 23);
-            TxtTriples1.TabIndex = 1;
+            TxtTriples1.TabIndex = 8;
             // 
             // label18
             // 
@@ -394,14 +394,14 @@
             TxtHomeruns1.Location = new Point(81, 252);
             TxtHomeruns1.Name = "TxtHomeruns1";
             TxtHomeruns1.Size = new Size(118, 23);
-            TxtHomeruns1.TabIndex = 1;
+            TxtHomeruns1.TabIndex = 9;
             // 
             // BtnAdd1
             // 
             BtnAdd1.Location = new Point(301, 140);
             BtnAdd1.Name = "BtnAdd1";
             BtnAdd1.Size = new Size(100, 30);
-            BtnAdd1.TabIndex = 3;
+            BtnAdd1.TabIndex = 10;
             BtnAdd1.Text = "추가";
             BtnAdd1.UseVisualStyleBackColor = true;
             BtnAdd1.Click += btnAdd1_Click;
@@ -411,7 +411,7 @@
             BtnDelete1.Location = new Point(407, 140);
             BtnDelete1.Name = "BtnDelete1";
             BtnDelete1.Size = new Size(100, 30);
-            BtnDelete1.TabIndex = 3;
+            BtnDelete1.TabIndex = 11;
             BtnDelete1.Text = "삭제";
             BtnDelete1.UseVisualStyleBackColor = true;
             BtnDelete1.Click += btnDelete1_Click;
@@ -464,7 +464,6 @@
             Controls.Add(label11);
             Controls.Add(TxtName1);
             Controls.Add(label10);
-            MaximizeBox = false;
             Name = "FrmMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "타자 데이터 저장";

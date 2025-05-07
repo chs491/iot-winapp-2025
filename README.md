@@ -1068,3 +1068,21 @@ IoT 개발자 C#/WinApp 리포지토리 2025
 ## 10일차
 
 ### 코딩테스트
+
+#### 코딩테스트 주제 : 야구선수 타자 데이터 추가 및 삭제
+
+1. 텍스트박스에 해당하는 데이터(이름, 포지션, 나이, 타수, 안타, 볼넷, 2루타, 3루타, 홈런)를 기입 - [소스](./toyproject/toyproject/codingtest/FrmMain.cs)
+
+    <img src = "./image/cs0024.png" width = "600">
+
+2. 타수, 안타, 장타(2루타, 3루타, 홈런) 데이터를 이용하여 타율(AVG), OPS를 계산한다. - [플레이어 클래스 소스](./toyproject/toyproject/codingtest/Player.cs)     
+
+3. 데이터를 기입한 후 추가 버튼을 클릭하면 기입한 데이터를 DataGridView를 통해 출력
+
+    <img src = "./image/cs0025.png" width = "600">
+
+4. 삭제 버튼을 클릭하면 DataGridView에 출력된 데이터가 삭제    
+
+    <img src = "./image/cs0026.png" width = "600">
+
+
