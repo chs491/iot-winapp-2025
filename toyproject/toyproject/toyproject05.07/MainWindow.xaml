@@ -1,0 +1,34 @@
+﻿<mah:MetroWindow x:Class="toyproject05._07.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:helpers="http://metro.mahapps.com/winfx/xaml/shared"         
+        xmlns:local="clr-namespace:toyproject05._07"
+        mc:Ignorable="d"
+        Title="선수 관리 프로그램" Height="350" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+            <TextBox x:Name="txtName" Width="150" Margin="5"/>
+            <TextBox x:Name="txtPosition" Width="150" Margin="5"/>
+            <TextBox x:Name="txtAge" Width="80" Margin="5" />
+
+            <Button Content="추가" Click="AddPlayer_Click" Margin="5"/>
+        </StackPanel>
+
+        <DataGrid x:Name="dgPlayers" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                <DataGridTextColumn Header="이름" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="포지션" Binding="{Binding Position}" Width="*"/>
+                <DataGridTextColumn Header="나이" Binding="{Binding Age}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</mah:MetroWindow>
